@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Use of lists, tables, media and forms">
+        <meta name="keywords" content="Lists, Tables, Media, Forms">
+        <title>Week 2 Practice</title>
+    </head>
+    <body>
+        <h1>Advanced HTML5</h1>
+        <section>
+            <h2>Enhancing Content</h2>
+            <p>The following are elements used to enhance Web Content:</p>
+            <ul>
+                <li>Lists</li>
+                <li>Media</li>
+                <li>Tables</li>
+                <li>Forms</li>
+            </ul>
+        </section>
+        <section>
+            <p>Below are some sources to better understand these elements:</p>
+            <img src="#" alt="Image of a webpage that uses lists, tables, and forms" />
+            <video width="320" height="240" controls>
+                <source src="#" type="video/mp4">
+                <source src="#" type="video/ogg">
+                Your browser does not support the video tag
+            </video>
+            <audio controls>
+                <source src="#" type="audio/mp3">
+                <source src="#" type="audio/wav">
+                Your browser does not support the audio tag
+            </audio>
+        </section>
+        <section>
+            <p>Below is a table summary on the usage of the elements:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Enhancer</td>
+                        <td>Element Name</td>
+                        <td>Usage</td>
+                        <td>Example Attributes</td>
+                        <td>Subtags</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>List</td>
+                        <td>ol</td>
+                        <td>Used to display an ordered list</td>
+                        <td>
+                            <ul>
+                                <li>start</li>
+                                <li>reversed</li>
+                                <li>type</li>
+                            </ul>
+                        </td>
+                        <td>li</td>
+                    </tr>
+                    <tr>
+                        <td>List</td>
+                        <td>ul</td>
+                        <td>Used to display an unordered list</td>
+                        <td>
+                            <ul>
+                                <li>compact</li>
+                                <li>type</li>
+                            </ul>
+                        </td>
+                        <td>li</td>
+                    </tr>
+                    <tr>
+                        <td>List</td>
+                        <td>dl</td>
+                        <td>Used to display a definition list</td>
+                        <td>N/A</td>
+                        <td>
+                            <ul>
+                                <li>dt</li>
+                                <li>dd</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Media</td>
+                        <td>img</td>
+                        <td>Used to display images</td>
+                        <td><ul>
+                            <li>src</li>
+                            <li>alt</li>
+                            <li>height</li>
+                            <li>width</li>
+                        </ul></td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Media</td>
+                        <td>video</td>
+                        <td>Used to display videos</td>
+                        <td><ul>
+                            <li>controls</li>
+                            <li>width</li>
+                            <li>height</li>
+                            <li>autoplay</li>
+                        </ul></td>
+                        <td>source</td>
+                    </tr>
+                    <tr>
+                        <td>Media</td>
+                        <td>audio</td>
+                        <td>Used to display audios</td>
+                        <td><ul>
+                            <li>autoplay</li>
+                            <li>muted</li>
+                            <li>controls</li>
+                            <li>loop</li>
+                        </ul></td>
+                        <td>source</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <p>Below is a form used to collect user information:</p>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Enter your first name here" autocomplete="on" required>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Enter your last name here" autocomplete="on" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="e.g.,johnsmith@gmail.com" autocomplete="on" required>
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" id="phone number" name="phone number" placeholder="Enter 10 digit number e.g., 0123456789" autocomplete="on" pattern="[0-9]{10}" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Interests</legend>
+                    <label for="Interests">Choose a Career Interest:</label>
+                    <select name="interests" id="interests">
+                        <option value="web-dev">Web Development</option>
+                        <option value="mobile-app">Mobile App Development</option>
+                        <option value="data-science">Data Science</option>
+                        <option value="machine-learning">Machine Learning</option>
+                        <option value="artificial-intelligence">Artificial Intelligence</option>
+                    </select>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </body>
+</html>
